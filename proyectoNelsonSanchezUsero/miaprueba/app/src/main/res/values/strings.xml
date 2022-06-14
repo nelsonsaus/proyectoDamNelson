@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">miaprueba</string>
+    <string name="txtCorreo">CORREO</string>
+    <string name="txtPerfil1">PERFIL</string>
+    <string name="txtNombre">NOMBRE</string>
+    <string name="txtApellidos">APELLIDOS</string>
+    <string name="txtPass">PASSWORD</string>
+    <string name="btnLogin">LOGIN</string>
+    <string name="btnRegister">REGISTER</string>
+    <string name="txtInicio">INICIO</string>
+    <string name="txtPerfil">Perfil</string>
+    <string name="txtUsuarios">Usuarios</string>
+    <string name="txtActividades">Actividades</string>
+    <string name="txtLocation">Location</string>
+    <string name="txtPlanEntrenamiento">Entrenamiento</string>
+    <string name="txtSalir">Salir</string>
+    <string name="txtUltimos">ULTIMOS 5 USUARIOS</string>
+    <string name="btnCamara">usar camara</string>
+    <string name="txtNuevo">NUEVO USUARIO</string>
+    <string name="btnCrear">CREAR</string>
+    <string name="btnVolver">VOLVER</string>
+    <string name="txtHipertrofia">HIPERTROFIA</string>
+    <string name="txtPerdida">PERDIDA DE PESO</string>
+    <string name="txtSaludable">VIDA SALUDABLE</string>
+    <string name="btnPagina">NUESTRA PAGINA</string>
+    <string name="btnEditar">EDITAR</string>
+    <string name="txtTrainers">TRAINERS</string>
+    <string name="txtAntiguos">5 USUARIOS MAS ANTIGUOS</string>
+
+
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:weightSum="10"
+    android:background="@color/oscurofondo">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/headerChatt"
+        android:orientation="horizontal"
+        android:layout_marginTop="0dp"
+        android:background="#191B23"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        >
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:cardCornerRadius="70dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@drawable/gradient_animacion"
+
+            >
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imgUserChat"
+                android:src="@drawable/noimage"
+                android:scaleType="centerCrop"></ImageView>
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/txtNombreChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="12dp"
+            android:text="EL NOMBRE"
+            android:textColor="@color/white"
+            android:textSize="15sp"></TextView>
+
+
+        <ImageButton
+            android:id="@+id/btnSalirChat"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/botonsalir"
+            android:src="@drawable/closeboton2"
+            android:elevation="999dp"
+            ></ImageButton>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewChatt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="9" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:id="@+id/txtTextoChatt"
+            android:hint="Escribe aqui..."
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:background="@drawable/texto_campos"
+            android:drawableStart="@drawable/ic_edit"
+            android:padding="10dp"
+            android:drawablePadding="20dp"
+            android:layout_marginBottom="20dp"
+            ></EditText>
+
+
+
+        <ImageView
+            android:id="@+id/btnEnviarChat"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="30dp"
+            app:srcCompat="@android:drawable/ic_menu_send"
+            android:tint="@color/verde"></ImageView>
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

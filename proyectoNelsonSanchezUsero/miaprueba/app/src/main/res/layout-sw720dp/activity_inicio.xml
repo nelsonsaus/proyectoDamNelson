@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InicioActivity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.synnapps.carouselview.CarouselView
+                android:id="@+id/carousel"
+                android:layout_width="1000dp"
+                android:layout_height="500dp"
+                app:fillColor="#FFFFFFFF"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:pageColor="#00000000"
+                app:slideInterval="20000"
+                app:strokeColor="#353535"
+                app:strokeWidth="1dp"></com.synnapps.carouselview.CarouselView>
+
+            <RelativeLayout
+                android:id="@+id/layoutObjetivos"
+                android:layout_width="1000dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/carousel"
+                android:background="@color/oscurofondo">
+
+
+                <LinearLayout
+                    android:id="@+id/txtTitulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center_horizontal"
+                        android:text="Elige cual es tu objetivo"
+                        android:textColor="@color/white"
+                        android:textSize="28sp"></TextView>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtTitulo"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="500dp"
+                        android:layout_height="400dp"
+                        android:background="@drawable/cardsobjetivos"
+                        android:elevation="50dp"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:layout_width="500dp"
+                            android:layout_height="330dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/imghipertrofia"></ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:gravity="center"
+                            android:text="@string/txtHipertrofia"
+                            android:textColor="@color/black"
+                            android:textSize="30sp"
+                            android:textStyle="bold"></TextView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="500dp"
+                        android:layout_height="400dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/cardsobjetivos"
+                        android:elevation="50dp"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:layout_width="500dp"
+                            android:layout_height="330dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/imgperdidapeso"></ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:gravity="center"
+                            android:text="@string/txtPerdida"
+                            android:textColor="@color/black"
+                            android:textSize="30sp"
+                            android:textStyle="bold"></TextView>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="500dp"
+                        android:layout_height="400dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="40dp"
+                        android:background="@drawable/cardsobjetivos"
+                        android:elevation="50dp"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:layout_width="500dp"
+                            android:layout_height="330dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/imgsaludable"></ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:gravity="center"
+                            android:text="@string/txtSaludable"
+                            android:textColor="@color/black"
+                            android:textSize="30sp"
+                            android:textStyle="bold"></TextView>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutObjetivos"
+                android:layout_marginTop="40dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Sobre Nosotros"
+                    android:textColor="@color/black"
+                    android:textSize="60sp"></TextView>
+
+                <View
+                    android:layout_width="600dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="#3E3E3E"></View>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="SpartanGym trae a España un nuevo concepto en la industria del fitness.\n Su plan de expansión está orientado a ser la mayor red de fitness de gimnasios de tamaño medio operando en España en 10 años, con 100 gimnasios por todo el territorio nacional."
+                    android:textAlignment="center"
+                    android:textSize="30sp"></TextView>
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="80dp">
+
+                    <VideoView
+                        android:id="@+id/videoView"
+                        android:layout_width="1000dp"
+                        android:layout_height="500dp"></VideoView>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnStart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/white"
+                        android:backgroundTint="@color/oscurofondo"
+                        app:icon="@android:drawable/ic_media_play"
+                        app:iconGravity="textStart"></com.google.android.material.button.MaterialButton>
+                </RelativeLayout>
+
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:id="@+id/btnPagina"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="100dp"
+                    android:backgroundTint="@color/oscurofondo"
+                    android:text="@string/btnPagina"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:layout_gravity="center_horizontal"></Button>
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/oscuropartes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        >
+
+
+
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageHome"
+            android:backgroundTint="@android:color/transparent"
+            android:src="@drawable/menuhome_focus"
+            ></ImageButton>
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageUser"
+            android:backgroundTint="@android:color/transparent"
+            android:src="@drawable/menuuser"
+            android:layout_marginLeft="60dp"
+            ></ImageButton>
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageMenu"
+            android:backgroundTint="@android:color/transparent"
+            android:src="@drawable/menumenu"
+            android:layout_marginLeft="60dp"
+            ></ImageButton>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

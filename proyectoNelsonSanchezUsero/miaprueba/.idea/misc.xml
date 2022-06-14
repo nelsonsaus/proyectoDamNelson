@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable-v24/botonsalir.xml" value="0.2703125" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable-v24/clave_control_focus.xml" value="0.14635416666666667" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable-v24/clave_focus.xml" value="0.14635416666666667" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable-v24/closeboton2.xml" value="0.1078125" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable-v24/email_focus.xml" value="0.14635416666666667" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable-v24/gradientplan.xml" value="0.2351851851851852" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2682291666666667" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable-v24/layoutcard.xml" value="0.2703125" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable-v24/menuhome_focus2.xml" value="0.26615384615384613" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable-v24/menuuser_focus2.xml" value="0.1078125" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/a.xml" value="0.26615384615384613" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/barramenu.xml" value="0.26615384615384613" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/boton.xml" value="0.14635416666666667" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/cardsobj2.xml" value="0.26615384615384613" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/cardsobjetivos.xml" value="0.26615384615384613" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/carduserpost.xml" value="0.2074074074074074" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/circlebutton.xml" value="0.26615384615384613" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/clave.xml" value="0.2703125" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/closeboton.xml" value="0.2703125" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/done.xml" value="0.2703125" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/email.xml" value="0.26615384615384613" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/email_control_focus.xml" value="0.26615384615384613" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/fondogradientperfil.xml" value="0.26615384615384613" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/fondogradientplan.xml" value="0.2703125" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/gradient.xml" value="0.2557291666666667" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/gradient2.xml" value="0.2557291666666667" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/gradient3.xml" value="0.2557291666666667" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/gradient_animacion.xml" value="0.259375" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/hexagonobutton.xml" value="0.26615384615384613" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/ic_add.xml" value="0.2703125" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.14635416666666667" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.26666666666666666" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.14635416666666667" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.26615384615384613" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2682291666666667" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/iconos_control_focus.xml" value="0.14635416666666667" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/info.xml" value="0.2703125" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/layoutfoto.xml" value="0.2682291666666667" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/menucard.xml" value="0.2703125" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/menuhome.xml" value="0.26615384615384613" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/menuhome_control.xml" value="0.26615384615384613" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/menuhome_focus.xml" value="0.26615384615384613" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/menumenu.xml" value="0.26615384615384613" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/menumenu_control.xml" value="0.26615384615384613" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/menumenu_focus.xml" value="0.26615384615384613" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/menuuser.xml" value="0.26615384615384613" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/menuuser_control.xml" value="0.26615384615384613" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/menuuser_focus.xml" value="0.26615384615384613" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/nodone.xml" value="0.2598958333333333" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/onemore.xml" value="0.12894736842105264" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/perfilcard.xml" value="0.13177083333333334" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/progress.xml" value="0.26666666666666666" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/reloj.xml" value="0.2611111111111111" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/splashscreen.xml" value="0.26615384615384613" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/stroke_color.xml" value="0.14635416666666667" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/stroke_color2.xml" value="0.2703125" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/stroke_foto.xml" value="0.2682291666666667" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/texto_campos.xml" value="0.14635416666666667" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/texto_campos2.xml" value="0.13177083333333334" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/triangle.xml" value="0.26615384615384613" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/trianglePlan.xml" value="0.26615384615384613" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/drawable/triangleright.xml" value="0.16875" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-h320dp/activity_create.xml" value="0.25416666666666665" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-h480dp/activity_create.xml" value="0.25416666666666665" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-sw320dp/activity_acti2.xml" value="0.7247956403269755" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-sw320dp/activity_actividades.xml" value="0.2" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-sw320dp/activity_antiguos.xml" value="0.8800000000000001" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-sw320dp/activity_create.xml" value="0.5250501002004008" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-sw320dp/activity_inicio.xml" value="0.72" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-sw320dp/activity_main.xml" value="0.6" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-sw320dp/activity_perfil.xml" value="0.11614583333333334" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-sw320dp/activity_register.xml" value="0.6" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-sw320dp/activity_usuarios.xml" value="0.72" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-sw320dp/usuarios_layout.xml" value="0.6" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-sw480dp/activity_create.xml" value="0.128" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-sw720dp/activity_acti2.xml" value="0.144" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-sw720dp/activity_actividades.xml" value="0.190625" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-sw720dp/activity_antiguos.xml" value="0.2" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-sw720dp/activity_create.xml" value="0.190625" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-sw720dp/activity_inicio.xml" value="0.190625" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-sw720dp/activity_main.xml" value="0.2" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-sw720dp/activity_perfil.xml" value="0.190625" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-sw720dp/activity_register.xml" value="0.190625" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-sw720dp/activity_usuarios.xml" value="0.2" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-sw720dp/fragment_porque.xml" value="0.2" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-sw720dp/usuarios_layout.xml" value="0.190625" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-w320dp/activity_create.xml" value="0.25416666666666665" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout-w480dp/activity_create.xml" value="0.17828947368421053" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/activity_acti2.xml" value="0.264" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/activity_actividades.xml" value="0.176" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/activity_antiguos.xml" value="0.136" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/activity_conversaciones.xml" value="0.264" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/activity_create.xml" value="0.2" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/activity_ejer.xml" value="0.24375" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/activity_ejercicios.xml" value="0.25052083333333336" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/activity_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/activity_infoacti.xml" value="0.264" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/activity_inicio.xml" value="0.16" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/activity_map.xml" value="0.25052083333333336" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/activity_menuplan.xml" value="0.2" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/activity_perfil.xml" value="0.176" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/activity_plan.xml" value="0.23221476510067113" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/activity_register.xml" value="0.152" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/activity_search.xml" value="0.176" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/activity_start_plan.xml" value="0.25416666666666665" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/activity_update.xml" value="0.1" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/activity_user_post.xml" value="0.176" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/activity_usuarios.xml" value="0.2" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/chat_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/ejercicios_layout.xml" value="0.264" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/fragment_entrenadores.xml" value="0.25416666666666665" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/fragment_menu.xml" value="0.264" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/fragment_porque.xml" value="0.264" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/fragment_sobre.xml" value="0.264" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/fragment_usuarios.xml" value="0.25416666666666665" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/post_layout.xml" value="0.2" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/layout/usuarios_layout.xml" value="0.264" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/xml/file_paths.xml" value="0.1" />
+        <entry key="..\:/Program Files (x86)/Android_Proyectos/miaprueba/app/src/main/res/xml/provider_paths_app.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.25416666666666665" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

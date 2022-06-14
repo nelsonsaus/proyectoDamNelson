@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActividadesActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/header">
+
+
+        <TextView
+            android:id="@+id/txtActividades"
+            android:layout_width="200dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="ACTIVIDADES"
+            android:textColor="@color/black"
+            android:textSize="32sp"></TextView>
+
+
+        <ImageButton
+            android:id="@+id/btnSalir"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/botonsalir"
+            android:src="@drawable/closeboton">
+
+        </ImageButton>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_below="@+id/txtActividades"
+            android:background="@color/orange1"></View>
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/header"
+        android:layout_marginTop="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp">
+
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="210dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/cardFuerza"
+                        android:foreground="@drawable/stroke_color2"
+                        >
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/fuerza"
+                            ></ImageView>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/black"
+                            android:alpha="0.4" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:text="FUERZA"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="40sp"
+
+                            ></TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="210dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/cardCardio"
+                        android:foreground="@drawable/stroke_color2"
+                        >
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/cardio"></ImageView>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/black"
+                            android:alpha="0.4" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:text="CARDIO"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="40sp"
+
+                            ></TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp">
+
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="210dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/cardCycling"
+                        android:foreground="@drawable/stroke_color2"
+                        >
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/cycling"></ImageView>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/black"
+                            android:alpha="0.4" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:text="CYCLING"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="40sp"
+
+                            ></TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="210dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/cardHiit"
+                        android:foreground="@drawable/stroke_color2"
+                        >
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/zonalibre"></ImageView>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/black"
+                            android:alpha="0.4" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:text="HIIT"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="40sp"
+
+                            ></TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp">
+
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="210dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/cardLibre"
+                        android:foreground="@drawable/stroke_color2"
+                        >
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/freezone2"></ImageView>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/black"
+                            android:alpha="0.4" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:text="LIBRE"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="40sp"
+
+                            ></TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="210dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/cardCrossfit"
+                        android:foreground="@drawable/stroke_color2"
+                        >
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/crossfit"></ImageView>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/black"
+                            android:alpha="0.4" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:text="CROSSFIT"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="30sp"
+
+                            ></TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="420dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/cardBodyCombat"
+                        android:foreground="@drawable/stroke_color2"
+                        >
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/boodycombat"></ImageView>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/black"
+                            android:alpha="0.4" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:text="BODY COMBAT"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="40sp"
+
+                            ></TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="420dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/cardYoga"
+                        android:foreground="@drawable/stroke_color2"
+                        >
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/yooga"></ImageView>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/black"
+                            android:alpha="0.4" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:text="YOGA"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="40sp"
+
+                            ></TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

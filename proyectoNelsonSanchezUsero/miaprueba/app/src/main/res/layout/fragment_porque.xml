@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txtContenedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Los mejores entrenadores y planes de entrenamiento y todo adaptado hacia a ti y tus objetivos. \n Ponte en manos de nuestros expertos y cumple con cualquiera de tus metas. \n Tenemos a entrenadores, asesores, nutricionistas, y una gran variedad de actividades para hacer, tanto en grupo como solitario."
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal|center_vertical"></TextView>
+</FrameLayout>

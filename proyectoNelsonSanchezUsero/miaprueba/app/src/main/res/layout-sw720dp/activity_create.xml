@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerfilActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/perfilHeader"
+                android:layout_width="match_parent"
+                android:layout_height="650dp"
+                android:background="@drawable/noimage">
+
+                <Button
+                    android:id="@+id/btnCamara"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="100dp"
+                    android:backgroundTint="@color/oscurofondo"
+                    android:text="@string/btnCamara"
+                    android:textSize="32sp"></Button>
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layoutNombre"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/perfilHeader"
+                android:background="#1C1C1C">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_centerInParent="true"
+                    android:background="@color/white"></View>
+
+
+                <TextView
+                    android:id="@+id/txtTitulo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:background="#1C1C1C"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/txtNuevo"
+                    android:textColor="@color/white"
+                    android:textSize="50sp"
+                    android:textStyle="bold"></TextView>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutNombre"
+                android:background="@drawable/fondogradientperfil"
+                android:gravity="center"
+                app:layout_constraintTop_toBottomOf="@+id/layoutNombre">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="650dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    app:cardBackgroundColor="#222222"
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="0dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+                    <View
+                        android:layout_width="120dp"
+                        android:layout_height="5dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:background="@color/azulclaro2"></View>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="60dp"
+                            android:layout_marginBottom="10dp"
+                            android:paddingLeft="50dp"
+                            android:text="@string/txtNombre"
+                            android:textColor="@color/white"
+                            android:textSize="40sp"></TextView>
+
+                        <EditText
+                            android:layout_width="550dp"
+                            android:layout_height="70dp"
+                            android:id="@+id/txt_nombre_create"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/texto_campos2"
+                            android:hint="@string/txtNombre"
+                            android:textSize="30sp"
+                            android:padding="10dp"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"></EditText>
+
+                        <TextView
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="40dp"
+                            android:layout_marginBottom="10dp"
+                            android:paddingLeft="40dp"
+                            android:text="@string/txtApellidos"
+                            android:textColor="@color/white"
+                            android:textSize="40sp"></TextView>
+
+                        <EditText
+                            android:layout_width="550dp"
+                            android:layout_height="70dp"
+                            android:id="@+id/txt_apellidos_create"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/texto_campos2"
+                            android:hint="@string/txtApellidos"
+                            android:textSize="30sp"
+                            android:padding="10dp"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"></EditText>
+
+                        <TextView
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="40dp"
+                            android:layout_marginBottom="10dp"
+                            android:paddingLeft="40dp"
+                            android:text="@string/txtCorreo"
+                            android:textColor="@color/white"
+                            android:textSize="40sp"></TextView>
+
+                        <EditText
+                            android:layout_width="550dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/txt_correo_create"
+                            android:layout_marginBottom="60dp"
+                            android:background="@drawable/texto_campos2"
+                            android:hint="@string/txtCorreo"
+                            android:textSize="30sp"
+                            android:padding="10dp"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"></EditText>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="60dp"
+                            android:padding="10dp"
+                            android:layout_gravity="center">
+
+
+
+                            <Button
+                                android:layout_width="230dp"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/btn_enviar_create"
+                                android:text="@string/btnCrear"
+                                android:textColor="@color/white"
+                                android:textStyle="bold"
+                                android:textSize="40sp"
+                                android:backgroundTint="@color/azulclaro2"
+                                android:background="@drawable/boton"></Button>
+
+                            <Button
+                                android:layout_width="230dp"
+                                android:layout_height="wrap_content"
+                                android:text="@string/btnVolver"
+                                android:id="@+id/btn_volver_create"
+                                android:textColor="@color/white"
+                                android:textStyle="bold"
+                                android:textSize="40sp"
+                                android:layout_marginLeft="20dp"
+                                android:background="@drawable/boton"
+                                ></Button>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
